@@ -9,15 +9,31 @@
 		<link rel="stylesheet" type="text/css" href="/style/css">
 		<link rel="shortcut icon" href="/favicon.ico">
 		<style>
+			.button {
+				background-color: #E85B7C;
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 4px 2px;
+				cursor: pointer;
+			}
 			#content {
 				margin: 150px;
-				background-color: white;
+				background-color: #FAE1F0;
 				padding: 50px;
+				border: 5px solid #E85B7C;
+				border-radius: 25px;
 			}
 			h1 {
+				margin: 80px;
 				color:#FF0091;
 				text-align:center;
-				font-size:45px;
+				font-size:100px;
+				font-family: Brush Script MT;
 			}
 			p {
 				color:#922864;
@@ -30,29 +46,31 @@
 				font-size:26px
 				}
 			#p1{
-				text-align:center
+				text-align:center;
+				font-size:30px;
+				color:#9E076C
 				}
 			#p2{
 				text-align:center
 				}
 			body {
-	background: linear-gradient(-30deg, #F7DFE8, #EF1541, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-}
+				background: linear-gradient(-30deg, #F7DFE8, #EF1541, #23a6d5, #23d5ab);
+				background-size: 400% 400%;
+				animation: gradient 15s ease infinite;
+			}
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-			</style>
+			@keyframes gradient {
+				0% {
+					background-position: 0% 50%;
+				}
+				50% {
+					background-position: 100% 50%;
+				}
+				100% {
+					background-position: 0% 50%;
+				}
+			}
+		</style>
 		
 	</head>
 	<title><strong>My First Webpage<strong></title>
@@ -63,9 +81,9 @@
 		<p id="p2">This site will be my <strong>new</strong> home on the web.</p>
 		<div id="content">
 			<p>Hello, nice to meet you!<br><br>My name is Daniela Draganova. I am a finance student at UNWE that is The economy University in my native city.<br> I have recently become interested in web design and I really want professional development in this field. I am from Bulgaria, Sofia and I live with my wonderful boyfriend Stanislav.<br> He is an amazing programming specialist who actually gave me the idea to start studying Front-end especially HTML, CSS, JavaScript and etc.</p>
-			<a href="https://www.facebook.com/profile.php?id=100000617284541"target="_blank"><em>Click here to view<br>my facebook profile!</em></a>
+			<a class="button" href="https://www.facebook.com/profile.php?id=100000617284541"target="_blank"><em>Click here to view<br>my facebook profile!</em></a>
 			<img src="images/Myphoto.jpg" alt="A girl with a picture next to her" style="float:right; border: none; width:320px; height:400px"/>
-			<hr>
+			
 			<p>Now I will tell you an intersting story about me. Before a month ago I fell ill with Covid-19. It was terrible. As we all already know, people with Covid need to isolate themselves and stop contact with other people. I stayed home for about two weeks and wondered how to spend all this free time. On the fifth day of the quarantine, I decided to order some basic painting materials. The shipment arrived and I was surrounded by canvases,acrylic paints, brushes and whatnot. I admit, I had no idea what exactly to do with them, but I had a great desire to start painting. I started watching different videos on You Tube, which really helped me a lot. Finishing my first painting, I was left breathless. It really became quite successful. Keep in mind that I have never been involved in painting and these were my first steps in art.And now I would like to present you all my works so far.</p>
 			<ol>
 			<hr>
